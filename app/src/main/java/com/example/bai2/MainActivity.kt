@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 rbSquare.isChecked -> {
-                    for(i in 1..n step 1) {
+                    for(i in 0..n step 1) {
                         if(i*i <= n){
                             result.add(i*i);
                         } else {
